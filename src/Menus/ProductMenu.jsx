@@ -43,8 +43,6 @@ DataLoader()
     {
         let items = this.state.temp
         let data = Object.values(this.state.allProducts);
-        console.log(data);
-        console.log(this.state.allProducts)
 
         if (data.length !== 0) {
             if (data) {

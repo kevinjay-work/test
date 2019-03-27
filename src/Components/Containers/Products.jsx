@@ -49,28 +49,8 @@ loadProduct(name){
   )
 }
 componentWillReceiveProps(nextProps){
-  console.log("previous state",this.state.sub_product);
   this.loadProduct(nextProps.match.params.product_name);
 }
-// DataLoader()
-//     {
-//         let items = this.state.temp
-
-//         if (data.length !== 0) {
-//             if (data) {
-//                 items = data.map((item,ind) => {
-//                   debugger
-//                     let i = ind
-//                     return (
-                      
-//                     )
-//                 })
-//                 this.setState({
-//                     db:items
-//                 })
-//             }
-//         }
-//     }
 
   render()
   {
